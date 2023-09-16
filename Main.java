@@ -45,18 +45,16 @@ public class Main {
         System.out.println("Available items: ");
 
 
-        Product constants[] = Product.values(); //how to call my Enum here?
-
         System.out.println("\n Getting products from vending machine: "); //do I need this if I want to use enum?
         System.out.println("1. " + vendingMachine.getProduct(0,0,6));
-        Products product = new Products("Soda has a lot of sugar.");
+        Products product = new Products("Soda has a lot of sugar.", ThingsinVM.SODA);
         double[] price = {2.00};
 
         System.out.println("\nUpdated vending machine items: ");
         vendingMachine.display();
 
         for (int i = 0; i < products.length; i++){
-            System.out.println(i + 1 + ". " + products[i] + "- $" + price[i]);
+        System.out.println(i + 1 + ". " + products[i] + "- $" + price[i]);
         }
 
         double totalAmount = 0.0;

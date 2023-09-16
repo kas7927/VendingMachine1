@@ -1,12 +1,10 @@
 public class Products {
     private String nutritionFacts;
 
-    public Products(String nutritionFacts){
+    private ThingsinVM vmItems;
+
+    public Products(String nutritionFacts, ThingsinVM vmItems) {
         this.nutritionFacts = nutritionFacts;
+
     }
-}
-
-    enum Product {
-        Soda;
-
 }
