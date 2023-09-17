@@ -1,9 +1,7 @@
 public class Products {
     private String nutritionFacts;
 
-    private ThingsinVM vmItems;
-
-    public Products(String nutritionFacts, ThingsinVM vmItems) {
+    public Products(String nutritionFacts) {
         this.nutritionFacts = nutritionFacts;
 
     }

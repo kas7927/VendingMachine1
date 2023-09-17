@@ -1,12 +1,14 @@
 public class VendingMachine {
     private String[][][] products;
 
+    private String nutritionFacts;
+
     public VendingMachine(int rows, int columns, int depth) {
         products = new String[rows][columns][depth];
 
     }
 
-    public void addProduct(int row, int column, int depth) {
+    public void addProduct(int row, int column, int depth, ThingsinVM vmItems, String nutritionFacts) {
         if (row >= 0 && row < products.length && column >= 0 && column < products[0].length && depth >= 0) {
         } else {
             System.out.println("Invalid location for adding a product.");
@@ -14,7 +16,7 @@ public class VendingMachine {
 
     }
 
-    public String getProduct(int row, int column, int depth) {
+    public String getProduct(int row, int column, int depth, ThingsinVM vmItems) {
         if (row >= 0 && row < products.length && column >= 0 && column < products[0].length) {
             String product = products[row][column][depth];
             if (product != null) {
@@ -32,7 +34,7 @@ public class VendingMachine {
     public void display() {
         for (int i = 0; i < products.length; i++) {
             for (int j = 0; j < products[0].length; j++) {
-                for (int k = 0; k < products.length; k++) {
+                for (int k = 0; k < products[0][0].length; k++) {
                     String product = products[i][j][k];
                     if (product == null) {
                         System.out.print("[Empty] ");

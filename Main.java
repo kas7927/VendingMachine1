@@ -4,57 +4,57 @@ public class Main {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
         VendingMachine vendingMachine = new VendingMachine(6, 6, 6);
-        vendingMachine.addProduct(0,0,6);
-        vendingMachine.addProduct(0,1,6);
-        vendingMachine.addProduct(0,2,6);
-        vendingMachine.addProduct(0,3,6);
-        vendingMachine.addProduct(0,4,6);
-        vendingMachine.addProduct(0,5,6);
-        vendingMachine.addProduct(1,0,6);
-        vendingMachine.addProduct(1,1,6);
-        vendingMachine.addProduct(1,2,6);
-        vendingMachine.addProduct(1,3,6);
-        vendingMachine.addProduct(1,4,6);
-        vendingMachine.addProduct(1,5,6);
-        vendingMachine.addProduct(2,0,6);
-        vendingMachine.addProduct(2,1,6);
-        vendingMachine.addProduct(2,2,6);
-        vendingMachine.addProduct(2,3,6);
-        vendingMachine.addProduct(2,4,6);
-        vendingMachine.addProduct(2,5,6);
-        vendingMachine.addProduct(3,0,6);
-        vendingMachine.addProduct(3,1,6);
-        vendingMachine.addProduct(3,2,6);
-        vendingMachine.addProduct(3,3,6);
-        vendingMachine.addProduct(3,4,6);
-        vendingMachine.addProduct(3,5,6);
-        vendingMachine.addProduct(4,0,6);
-        vendingMachine.addProduct(4,1,6);
-        vendingMachine.addProduct(4,2,6);
-        vendingMachine.addProduct(4,3,6);
-        vendingMachine.addProduct(4,4,6);
-        vendingMachine.addProduct(4,5,6);
-        vendingMachine.addProduct(5,0,6);
-        vendingMachine.addProduct(5,1,6);
-        vendingMachine.addProduct(5,2,6);
-        vendingMachine.addProduct(5,3,6);
-        vendingMachine.addProduct(5,4,6);
-        vendingMachine.addProduct(5,5,6);
+        vendingMachine.addProduct(0,0,6, ThingsinVM.SODA, "200 Calories, 3Grams Fat, 45 Carbs");
+        vendingMachine.addProduct(0,1,6, ThingsinVM.SODA, "200 Calories, 3Grams Fat, 45 Carbs");
+        vendingMachine.addProduct(0,2,6, ThingsinVM.SODA, "200 Calories, 3Grams Fat, 45 Carbs");
+        vendingMachine.addProduct(0,3,6, ThingsinVM.SODA, "200 Calories, 3Grams Fat, 45 Carbs");
+        vendingMachine.addProduct(0,4,6, ThingsinVM.SODA, "200 Calories, 3Grams Fat, 45 Carbs");
+        vendingMachine.addProduct(0,5,6, ThingsinVM.SODA, "200 Calories, 3Grams Fat, 45 Carbs");
+        vendingMachine.addProduct(1,0,6, ThingsinVM.SODA, "200 Calories, 3Grams Fat, 45 Carbs");
+        vendingMachine.addProduct(1,1,6, ThingsinVM.SODA, "200 Calories, 3Grams Fat, 45 Carbs");
+        vendingMachine.addProduct(1,2,6, ThingsinVM.SODA, "200 Calories, 3Grams Fat, 45 Carbs");
+        vendingMachine.addProduct(1,3,6, ThingsinVM.SODA, "200 Calories, 3Grams Fat, 45 Carbs");
+        vendingMachine.addProduct(1,4,6, ThingsinVM.SODA, "200 Calories, 3Grams Fat, 45 Carbs");
+        vendingMachine.addProduct(1,5,6, ThingsinVM.SODA, "200 Calories, 3Grams Fat, 45 Carbs");
+        vendingMachine.addProduct(2,0,6, ThingsinVM.SODA, "200 Calories, 3Grams Fat, 45 Carbs");
+        vendingMachine.addProduct(2,1,6, ThingsinVM.SODA, "200 Calories, 3Grams Fat, 45 Carbs");
+        vendingMachine.addProduct(2,2,6, ThingsinVM.SODA, "200 Calories, 3Grams Fat, 45 Carbs");
+        vendingMachine.addProduct(2,3,6, ThingsinVM.SODA, "200 Calories, 3Grams Fat, 45 Carbs");
+        vendingMachine.addProduct(2,4,6, ThingsinVM.SODA, "200 Calories, 3Grams Fat, 45 Carbs");
+        vendingMachine.addProduct(2,5,6, ThingsinVM.SODA, "200 Calories, 3Grams Fat, 45 Carbs");
+        vendingMachine.addProduct(3,0,6, ThingsinVM.SODA, "200 Calories, 3Grams Fat, 45 Carbs");
+        vendingMachine.addProduct(3,1,6, ThingsinVM.SODA, "200 Calories, 3Grams Fat, 45 Carbs");
+        vendingMachine.addProduct(3,2,6, ThingsinVM.SODA, "200 Calories, 3Grams Fat, 45 Carbs");
+        vendingMachine.addProduct(3,3,6, ThingsinVM.SODA, "200 Calories, 3Grams Fat, 45 Carbs");
+        vendingMachine.addProduct(3,4,6, ThingsinVM.SODA, "200 Calories, 3Grams Fat, 45 Carbs");
+        vendingMachine.addProduct(3,5,6, ThingsinVM.SODA, "200 Calories, 3Grams Fat, 45 Carbs");
+        vendingMachine.addProduct(4,0,6, ThingsinVM.SODA, "200 Calories, 3Grams Fat, 45 Carbs");
+        vendingMachine.addProduct(4,1,6, ThingsinVM.SODA, "200 Calories, 3Grams Fat, 45 Carbs");
+        vendingMachine.addProduct(4,2,6, ThingsinVM.SODA, "200 Calories, 3Grams Fat, 45 Carbs");
+        vendingMachine.addProduct(4,3,6, ThingsinVM.SODA, "200 Calories, 3Grams Fat, 45 Carbs");
+        vendingMachine.addProduct(4,4,6, ThingsinVM.SODA, "200 Calories, 3Grams Fat, 45 Carbs");
+        vendingMachine.addProduct(4,5,6, ThingsinVM.SODA, "200 Calories, 3Grams Fat, 45 Carbs");
+        vendingMachine.addProduct(5,0,6, ThingsinVM.SODA, "200 Calories, 3Grams Fat, 45 Carbs");
+        vendingMachine.addProduct(5,1,6, ThingsinVM.SODA, "200 Calories, 3Grams Fat, 45 Carbs");
+        vendingMachine.addProduct(5,2,6, ThingsinVM.SODA, "200 Calories, 3Grams Fat, 45 Carbs");
+        vendingMachine.addProduct(5,3,6, ThingsinVM.SODA, "200 Calories, 3Grams Fat, 45 Carbs");
+        vendingMachine.addProduct(5,4,6, ThingsinVM.SODA, "200 Calories, 3Grams Fat, 45 Carbs");
+        vendingMachine.addProduct(5,5,6, ThingsinVM.SODA, "200 Calories, 3Grams Fat, 45 Carbs");
 
         System.out.println("Welcome to the Vending Machine!");
         System.out.println("Available items: ");
+        System.out.println(vendingMachine.getProduct(0,0,6, ThingsinVM.SODA));
+
+        System.out.println("\n Getting products from vending machine: ");
 
 
-        System.out.println("\n Getting products from vending machine: "); //do I need this if I want to use enum?
-        System.out.println("1. " + vendingMachine.getProduct(0,0,6));
-        Products product = new Products("Soda has a lot of sugar.", ThingsinVM.SODA);
-        double[] price = {2.00};
-
-        System.out.println("\nUpdated vending machine items: ");
         vendingMachine.display();
 
+        double[] price = {2.00};
+        String[] products = {"soda"};
+
         for (int i = 0; i < products.length; i++){
-        System.out.println(i + 1 + ". " + products[i] + "- $" + price[i]);
+            System.out.println(i + 1 + ". " + products[i] + "- $" + price[i]);
         }
 
         double totalAmount = 0.0;
@@ -70,7 +70,7 @@ public class Main {
                 System.out.println("Invalid choice. Please try again.");
 
             } else {
-                int selectedItemIndex = choice - 1;
+                int selectedItemIndex = choice -1;
                 String selectedItem = products[selectedItemIndex];
                 double productPrice = price[selectedItemIndex];
 
